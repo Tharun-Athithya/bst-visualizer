@@ -50,3 +50,21 @@ button:hover {
     position: relative; 
     overflow: hidden;
 }
+/* This class defines the visual look of our tree nodes */
+.node {
+    width: 50px;           /* Makes it 50 pixels wide */
+    height: 50px;          /* Makes it 50 pixels tall */
+    background-color: #28a745; /* A nice professional green */
+    color: white;          /* Makes the text inside white */
+    border-radius: 50%;    /* This is the magic trick that turns a square into a perfect circle */
+    display: flex;         
+    justify-content: center; /* Centers the number horizontally */
+    align-items: center;     /* Centers the number vertically */
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Adds a subtle 3D shadow */
+    
+    /* We will use math to position these perfectly later, but for today we just need them to show up! */
+    margin: 10px; 
+    display: inline-flex; 
+}
